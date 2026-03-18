@@ -14,6 +14,10 @@ This is an example setup of TailwindCSS using the CLI.
     ```
 - Start the Tailwind CLI build process.
     ```bash
+    npm run tailwind
+    ```
+    Behind the scene, this will run:
+    ```bash
     npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
     ```
 - Start using the Tailwind in your HTML.
