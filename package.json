@@ -12,5 +12,8 @@
 	],
 	"author": "Chester",
 	"license": "ISC",
-	"type": "commonjs"
+	"type": "commonjs",
+	"devDependencies": {
+		"tailwindcss": "^4.2.1"
+	}
 }
