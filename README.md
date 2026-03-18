@@ -2,6 +2,8 @@
 
 This is an example setup of TailwindCSS using the CLI.
 
+<br />
+
 ## ⚙️ Setup
 
 - Install Tailwind CSS.
@@ -37,3 +39,8 @@ This is an example setup of TailwindCSS using the CLI.
     	</body>
     </html>
     ```
+- Start the Live Server by clicking at the bottom.
+
+## 🗒️ Official Docs
+
+[https://tailwindcss.com/docs/installation/tailwind-cli](https://tailwindcss.com/docs/installation/tailwind-cli)
