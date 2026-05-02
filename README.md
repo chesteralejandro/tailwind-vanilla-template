@@ -1,66 +1,59 @@
-# {{PROJECT_NAME}}
+# Tailwind Vanilla Template
 
-{{PROJECT_DESCRIPTION}}
+A minimal Tailwind CSS starter template using the CLI. No frameworks, just HTML and CSS.
+
+Built for quickly bootstrapping vanilla frontend projects.
 
 <br />
 
-## 📋 Prerequisites
+## 🚀 Getting Started (1-minute setup)
 
-| Requirement           | Required? |
-| --------------------- | --------- |
-| Node.js               | Yes       |
-| NPM                   | Yes       |
-| VS Code               | Optional  |
-| Live Server Extension | Optional  |
-
-## ⚙️ Setup & Installation
-
-- Install dependencies
+- Install dependencies:
 
     ```bash
     npm install
     ```
 
-- Check the import in `src/input.css`
-
-    ```bash
-    @import "tailwindcss";
-    ```
-
-- Start the Tailwind CLI build process.
+- Start Tailwind CLI in watch mode:
 
     ```bash
     npm run tailwind
     ```
 
-    > Behind the scene, this will run:
+- Open `index.html` in browser or use Live Server.
 
-    ```bash
-    npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+## ⚙️ Project Configuration
+
+- Ensure Tailwind is imported in `src/input.css`:
+
+    ```css
+    @import 'tailwindcss';
     ```
 
-- Link the `src/output.css` in you HTML file and start using Tailwind.
+- Link the compiled CSS in your HTML:
 
     ```html
-    <head>
-    	<link href="./src/output.css" rel="stylesheet" />
-    </head>
-    <body>
-    	<h1 class="text-3xl font-bold underline">Hello world!</h1>
-    </body>
+    <link href="./src/output.css" rel="stylesheet" />
     ```
 
-- Run `index.html` on your browser or use the `Live Server` VS Code extension.
+## 📋 Prerequisites
+
+| Tool                  | Needed   | Purpose               |
+| --------------------- | -------- | --------------------- |
+| Node.js               | Yes      | Run npm scripts       |
+| NPM                   | Yes      | Dependency management |
+| VS Code               | Optional | Code editor           |
+| Live Server Extension | Optional | Local preview         |
 
 ## 🛠️ Tech Stack
 
 - HTML
-- Tailwind CSS
+- Tailwind CSS (CLI)
 
 ## 📁 Folder Structure
 
 ```
-📁 root/
+📁 tailwind-vanilla-template/
 ├── .gitignore
 ├── index.html
 ├── package-lock.json
