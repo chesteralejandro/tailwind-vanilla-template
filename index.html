@@ -4,13 +4,42 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./src/output.css" />
-		<title>Tailwind CLI Template</title>
+		<title>Tailwind Vanilla Template</title>
 	</head>
-	<body>
-		<main class="container mx-auto">
-			<h1 class="text-5xl font-bold text-center p-12 bg-slate-300">
-				Hello From Tailwind CSS.
-			</h1>
+
+	<body class="bg-slate-50 text-slate-900">
+		<main class="max-w-4xl mx-auto px-6 py-16">
+			<!-- Hero -->
+			<section class="text-center space-y-4">
+				<h1 class="text-5xl font-bold">Tailwind Vanilla Template</h1>
+
+				<p class="text-slate-600 text-lg">
+					A minimal starter using Tailwind CSS CLI.
+				</p>
+
+				<a
+					href="https://tailwindcss.com/docs/installation/tailwind-cli"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="inline-block mt-4 px-5 py-2 rounded-md bg-blue-600 text-white font-medium hover:bg-blue-700 transition"
+				>
+					Tailwind Docs
+				</a>
+			</section>
+
+			<!-- Card -->
+			<section class="mt-16">
+				<div
+					class="bg-white border border-slate-200 rounded-lg p-6 shadow-sm"
+				>
+					<h2 class="text-xl font-semibold mb-2">Ready to build</h2>
+
+					<p class="text-slate-600">
+						This template gives you a clean starting point with
+						Tailwind CSS configured via the CLI.
+					</p>
+				</div>
+			</section>
 		</main>
 	</body>
 </html>
