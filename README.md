@@ -63,6 +63,20 @@
 - HTML
 - Tailwind CSS
 
+## 📁 Folder Structure
+
+```
+📁 root/
+├── .gitignore
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+└── 📁 src/
+    ├── input.css
+    └── output.css
+```
+
 ## 🗒️ Official Docs
 
 [https://tailwindcss.com/docs/installation/tailwind-cli](https://tailwindcss.com/docs/installation/tailwind-cli)
