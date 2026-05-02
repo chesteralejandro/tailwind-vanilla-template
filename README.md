@@ -6,10 +6,12 @@
 
 ## 📋 Prerequisites
 
-- Node.js
-- NPM
-- VS Code
-- Live Server Extension (VS Code)
+| Requirement           | Required? |
+| --------------------- | --------- |
+| Node.js               | Yes       |
+| NPM                   | Yes       |
+| VS Code               | Optional  |
+| Live Server Extension | Optional  |
 
 ## ⚙️ Setup & Installation
 
@@ -40,23 +42,15 @@
 - Link the `src/output.css` in you HTML file and start using Tailwind.
 
     ```html
-    <!doctype html>
-    <html>
-    	<head>
-    		<meta charset="UTF-8" />
-    		<meta
-    			name="viewport"
-    			content="width=device-width, initial-scale=1.0"
-    		/>
-    		<link href="./src/output.css" rel="stylesheet" />
-    	</head>
-    	<body>
-    		<h1 class="text-3xl font-bold underline">Hello world!</h1>
-    	</body>
-    </html>
+    <head>
+    	<link href="./src/output.css" rel="stylesheet" />
+    </head>
+    <body>
+    	<h1 class="text-3xl font-bold underline">Hello world!</h1>
+    </body>
     ```
 
-- Start the `Live Server` by clicking `Go Live` button at the bottom.
+- Run `index.html` on your browser or use the `Live Server` VS Code extension.
 
 ## 🛠️ Tech Stack
 
