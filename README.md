@@ -1,28 +1,44 @@
-# Tailwind CSS CLI
+# {{PROJECT_NAME}}
 
-This is an example setup of TailwindCSS using the CLI.
+{{PROJECT_DESCRIPTION}}
 
 <br />
 
-## ⚙️ Setup
+## 📋 Prerequisites
 
-- Install Tailwind CSS.
+- Node.js
+- NPM
+- VS Code
+- Live Server Extension (VS Code)
+
+## ⚙️ Setup & Installation
+
+- Install dependencies
+
     ```bash
-    npm install tailwindcss @tailwindcss/cli
+    npm install
     ```
-- Import Tailwind in your main CSS file.
+
+- Check the import in `src/input.css`
+
     ```bash
     @import "tailwindcss";
     ```
+
 - Start the Tailwind CLI build process.
+
     ```bash
     npm run tailwind
     ```
-    Behind the scene, this will run:
+
+    > Behind the scene, this will run:
+
     ```bash
     npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
     ```
-- Start using the Tailwind in your HTML.
+
+- Link the `src/output.css` in you HTML file and start using Tailwind.
+
     ```html
     <!doctype html>
     <html>
@@ -32,14 +48,20 @@ This is an example setup of TailwindCSS using the CLI.
     			name="viewport"
     			content="width=device-width, initial-scale=1.0"
     		/>
-    		<link href="./output.css" rel="stylesheet" />
+    		<link href="./src/output.css" rel="stylesheet" />
     	</head>
     	<body>
     		<h1 class="text-3xl font-bold underline">Hello world!</h1>
     	</body>
     </html>
     ```
-- Start the Live Server by clicking at the bottom.
+
+- Start the `Live Server` by clicking `Go Live` button at the bottom.
+
+## 🛠️ Tech Stack
+
+- HTML
+- Tailwind CSS
 
 ## 🗒️ Official Docs
 
